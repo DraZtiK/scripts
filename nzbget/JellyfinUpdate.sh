@@ -35,7 +35,7 @@
 # Set this if you have modifed the "Base URL:" option. This may need testing if 
 # you have not created/changed the Base URL option. It will require the leading 
 # forward slash to function correctly.
-#Baseurl=/jellfin
+#Baseurl=/jellyfin
 
 ### NZBGET POST-PROCESSING SCRIPT                                          ###
 ##############################################################################
