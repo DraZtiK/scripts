@@ -74,7 +74,7 @@ if ! which curl 1>/dev/null 2>&1; then
 fi
 
 curl  --connect-timeout 5 -d "" \
-  http://${NZBPO_HOST}:${NZBPO_PORT}${NZBPO_BASEURL}/library/refresh?api_key=${NZBPO_APIXTOKEN} 1>/dev/null 2>&1
+  http://${NZBPO_HOST}:${NZBPO_PORT}${NZBPO_BASEURL}/library/refresh?api_key=${NZBPO_APITOKEN} 1>/dev/null 2>&1
 
 curl_return_value="$?"
 
